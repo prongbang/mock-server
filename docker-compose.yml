@@ -1,0 +1,8 @@
+version: '3.5'
+services: 
+  decryption:
+    build: ./decrypt
+    container_name: decryption
+    ports: 
+      - "3000:3000"
+    restart: always
